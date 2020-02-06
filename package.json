@@ -1,0 +1,39 @@
+{
+  "name": "project_12_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariaGritsienko/project_12_react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DariaGritsienko/project_12_react/issues"
+  },
+  "homepage": "https://github.com/DariaGritsienko/project_12_react#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "prop-types": "15.6"
+  },
+  "devDependencies": {
+    "react-scripts": "^3.3.0",
+    "terser-brunch": "^4.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

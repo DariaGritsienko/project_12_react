@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2ae2f4509788dac8cb3acb0826d7705",
+    "revision": "1d333ff3a003eda9d48e1e6dfbde0da7",
     "url": "/DariaGritsienko/project_12_react/index.html"
   },
   {
@@ -8,12 +8,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DariaGritsienko/project_12_react/static/css/main.a549c9ec.chunk.css"
   },
   {
-    "revision": "a45089c6029046ba59ba",
-    "url": "/DariaGritsienko/project_12_react/static/js/2.b5d9ee91.chunk.js"
+    "revision": "1005e1ab9af7fea2a3ec",
+    "url": "/DariaGritsienko/project_12_react/static/js/2.58625da0.chunk.js"
   },
   {
-    "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/DariaGritsienko/project_12_react/static/js/2.b5d9ee91.chunk.js.LICENSE"
+    "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
+    "url": "/DariaGritsienko/project_12_react/static/js/2.58625da0.chunk.js.LICENSE.txt"
   },
   {
     "revision": "ecf32ed72f8baf74d66d",

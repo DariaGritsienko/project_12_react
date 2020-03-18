@@ -21,13 +21,13 @@ class Article extends React.Component {
                 <p className="news__author">{author}:</p>
                 <p className="news__text">{text}</p>
                 {
-                    !visible && <a onClick={this.handleReadMoreClick} href="#readmore" className='news__readmore'>Подробнее</a>
+                    !visible && <a onClick={this.handleReadMoreClick} href="#readmore" className="news__readmore">Подробнее</a>
                 }
                 {
                     visible && <p className="news__big-text">{bigText}</p>
                 }
                 {
-                    visible && <a onClick={this.handleReadMoreHide} href="#readmore" className='news__readmore_hide'>Скрыть</a>
+                    visible && <a onClick={this.handleReadMoreHide} href="#readmore" className="news__readmore_hide">Скрыть</a>
                 }
             </div>
         )

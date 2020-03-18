@@ -29,43 +29,40 @@ class Add extends React.Component {
     }
     validate = () => {
         const { name, text, checkbox } = this.state
-        if (name.trim() && text.trim() && checkbox) {
-            return true
-
-        }else return false
+        return name.trim() && text.trim() && checkbox;
     }
     render(){
         const { name, text, bigText } = this.state
         return(
-            <form className='add'>
+            <form className="add">
                 <input
-                    id='name'
-                    type='text'
+                    id="name"
+                    type="text"
                     onChange={this.handleChange}
-                    className='add__author'
-                    placeholder='Ваше имя'
+                    className="add__author"
+                    placeholder="Ваше имя"
                     value = {name}
                 />
                 <textarea
-                    id='text'
+                    id="text"
                     onChange={this.handleChange}
-                    className='add__text'
-                    placeholder='Текст новости'
+                    className="add__text"
+                    placeholder="Текст новости"
                     value={text}
                 />
                 <textarea
-                    id = 'bigText'
+                    id = "bigText"
                     onChange={this.handleChange}
-                    className='add__text'
-                    placeholder='Текст новости подробно'
+                    className="add__text"
+                    placeholder="Текст новости подробно"
                     value={bigText}
                 />
-                <label className='add__checkrule'>
-                    <input type='checkbox' onChange={this.handleCheckboxChange}/>
+                <label className="add__checkrule">
+                    <input type="checkbox" onChange={this.handleCheckboxChange}/>
                     Я согласен с правилами
                 </label>
                 <button
-                    className='add__btn'
+                    className="add__btn"
                     onClick={this.onBtnClickHandler}
                     disabled={!this.validate()}
                 >

@@ -33,10 +33,10 @@
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "babel-loader": "^8.0.6",
-    "react-scripts": "^3.3.0",
+    "react-scripts": "^5.0.1",
     "terser-brunch": "^4.0.0",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.12"
   },
   "browserslist": [
     ">0.2%",
